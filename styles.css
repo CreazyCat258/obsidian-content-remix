@@ -1,8 +1,74 @@
-/*
+/* Content Remix Plugin Styles */
+.content-remix-content-container,
+.content-remix-platform-container,
+.content-remix-preview-container {
+    margin-bottom: 1.5rem;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.content-remix-content-container h3,
+.content-remix-platform-container h3,
+.content-remix-preview-container h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
 
-If your plugin does not need CSS, delete this file.
+.content-remix-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    resize: vertical;
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
+}
 
-*/
+.content-remix-textarea:focus {
+    outline: none;
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px var(--interactive-accent);
+}
+
+.content-remix-platform-select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-secondary);
+    color: var(--text-normal);
+    font-size: 0.9rem;
+}
+
+.content-remix-preview-content {
+    padding: 1rem;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background-color: var(--background-secondary-alt);
+    color: var(--text-muted);
+    font-family: var(--font-monospace);
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    min-height: 100px;
+}
+
+.content-remix-button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+
+.content-remix-button-container button {
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content-remix-ribbon {
+    /* Add custom ribbon styles here if needed */
+}

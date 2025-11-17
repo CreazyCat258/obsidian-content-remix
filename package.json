@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-content-remix",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Obsidian 的内容分发助手插件。能够将Obsidian笔记一键转化为特定平台内容的文字，比如小红书、即刻、X等。",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
@@ -9,7 +9,7 @@
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Yanze",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
